@@ -16,6 +16,37 @@ export default function Home() {
         <title>ReactJS with react-bootstrap</title>
         <link rel="icon" href="/favicon-32x32.png" />
       </Head>
+
+      <Container>
+        <Row className="">
+          <Col xs={6}>
+            <Image 
+              alt="" 
+              src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+              width={500}
+              height={500}
+            />
+          </Col>
+          <Col xs={6}>
+            <Image 
+              alt="" 
+              src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+              width={500}
+              height={500}
+            />
+          </Col>
+          <Col xs={6}>
+            <Image 
+              alt="" 
+              src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+              width={500}
+              height={500}
+            />
+          </Col>
+        </Row>
+      </Container>
+
+      {/* main nextjs section */}
       <Container>
         <h1>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -25,7 +56,7 @@ export default function Home() {
         </p>
         <Container>
           <Row className="justify-content-md-between">
-            <Card className="sml-card">
+            <Card>
               <Card.Body>
                 <Card.Title>Documentation</Card.Title>
                 <Card.Text>
@@ -49,7 +80,7 @@ export default function Home() {
             </Card>
           </Row>
           <Row className="justify-content-md-between">
-            <Card className="sml-card">
+            <Card>
               <Card.Body>
                 <Card.Title>Examples</Card.Title>
                 <Card.Text>
