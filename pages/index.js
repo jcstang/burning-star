@@ -8,8 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import NavbarMain from '../components/Navbars/NavbarMain';  
 
 export default function Home() {
-  const imgHeight = 500;
-  const imgWidth = 500;
+  const imgHeight = 800;
+  const imgWidth = 800;
   return (
     <>
     <NavbarMain />
@@ -25,7 +25,7 @@ export default function Home() {
         <Col className="main-col">
           <Image 
             alt="" 
-            src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+            src="/adobe-stock-photos/AdobeStock_295247087.jpeg"
             width={imgWidth}
             height={imgHeight}
           />
