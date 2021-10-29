@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <NavbarMain />
-    <Container>
+    <Container fluid>
       <Head>
         <title>ReactJS with react-bootstrap</title>
         <link rel="icon" href="/favicon-32x32.png" />
@@ -19,7 +19,7 @@ export default function Home() {
 
       <Container>
         <Row className="">
-          <Col xs={6}>
+          <Col xs={4}>
             <Image 
               alt="" 
               src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
@@ -27,7 +27,7 @@ export default function Home() {
               height={500}
             />
           </Col>
-          <Col xs={6}>
+          <Col xs={4}>
             <Image 
               alt="" 
               src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
@@ -35,7 +35,7 @@ export default function Home() {
               height={500}
             />
           </Col>
-          <Col xs={6}>
+          <Col xs={4}>
             <Image 
               alt="" 
               src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
