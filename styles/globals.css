@@ -40,3 +40,16 @@ a {
   height: 1em;
   margin-left: 10px;
 }
+
+.red-main {
+  background-color: red;
+  width: auto;
+  height: 20rem;
+}
+.blue-main {
+  background-color: blue;
+  width: auto;
+}
+.main-col {
+  margin-top: 0.03rem;
+}

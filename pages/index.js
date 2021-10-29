@@ -8,6 +8,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import NavbarMain from '../components/Navbars/NavbarMain';  
 
 export default function Home() {
+  const imgHeight = 500;
+  const imgWidth = 500;
   return (
     <>
     <NavbarMain />
@@ -18,34 +20,33 @@ export default function Home() {
       </Head>
 
       {/* Main 3 cols */}
-      <Container>
-        <Row className="">
-          <Col xs={4}>
-            <Image 
-              alt="" 
-              src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
-              width={500}
-              height={500}
+
+      <Row className="main-sections">
+        <Col className="main-col">
+          <Image 
+            alt="" 
+            src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          />
+        </Col>
+        <Col className="main-col">
+          <Image 
+            alt="" 
+            src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+            width={imgWidth}
+            height={imgHeight}
+          />
+        </Col>
+        <Col className="main-col">
+          <Image 
+            alt="" 
+            src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
+            width={imgWidth}
+            height={imgHeight}
             />
-          </Col>
-          <Col xs={4}>
-            <Image 
-              alt="" 
-              src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
-              width={500}
-              height={500}
-            />
-          </Col>
-          <Col xs={4}>
-            <Image 
-              alt="" 
-              src="/adobe-stock-photos/AdobeStock_322363111.jpeg"
-              width={500}
-              height={500}
-            />
-          </Col>
-        </Row>
-      </Container>
+        </Col>
+      </Row>
 
 
     </Container>
